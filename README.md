@@ -13,9 +13,9 @@ I used an SPI communication protocol on nRF24L01 modules, allowing seamless comm
 ## Table of Contents 
 
 - [SPI Communication](#SPI-Communication)
-- [Motor Driver](#Motor)
-- [Adaptive cruise control](#Adaptive)
-- [Low-speed braking](#Low-speed braking)
+- [Motor Driver](#Motor_driver)
+- [Adaptive cruise control](#Adaptive_Cruise_Control)
+- [Low-speed braking](#Low-speed_braking)
 
 ## SPI-Communication
 
