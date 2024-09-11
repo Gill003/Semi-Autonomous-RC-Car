@@ -2,7 +2,7 @@
 
 ## Description
 
-I developed and designed an RC car from scratch, incorporating semi-autonomous features such as adaptive cruise control and low-speed emergency braking. Driven by a passion for software development and automotive engineering, I integrated these interests into a project that aims to advance the capabilities of remote-controlled vehicles.
+I developed and designed an RC car from scratch, incorporating semi-autonomous features such as adaptive cruise control and low-speed emergency braking. Driven by a passion for embedded software development and automotive engineering, I integrated these interests into a project that aims to advance the capabilities of remote-controlled vehicles.
 
 The RC car is built around an Arduino Nano microcontroller. For steering, I implemented a servo motor at the front wheel shaft and for the movement, I used 2 DC-encoded motors controlled using a L293D quadruple half-H driver. I designed and tested different prototypes on AutoCad and printed them using a 3D printer.
 
