@@ -10,27 +10,26 @@ I used an SPI communication protocol on nRF24L01 modules, allowing seamless comm
  an HC-SR04 ultrasonic sensor is employed to enable adaptive cruise control and low-speed emergency braking.
 
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents 
 
 - [SPI Communication](#SPI-Communication)
-- [Motor Driver](#Motor_driver)
-- [Adaptive cruise control](#Adaptive_Cruise_Control)
-- [Low-speed braking](#Low-speed_braking)
+- [Motor Driver](#Motor)
+- [Adaptive cruise control](#Adaptive)
+- [Low-speed braking](#Low-speed)
 
 ## SPI-Communication
 
 
 
-## Motor_driver
+## Motor driver
 
 
 
-## Adaptive_Cruise_Control
+## Adaptive Cruise Control
 
 
 
-## Low-speed_braking
+## Low-speed braking
+
 
 
