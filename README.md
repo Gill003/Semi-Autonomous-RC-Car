@@ -21,15 +21,15 @@ I used an SPI communication protocol on nRF24L01 modules, allowing seamless comm
 
 
 
-## Motor driver
+## Motor_driver
 
 
 
-## Adaptive Cruise Control
+## Adaptive_Cruise_Control
 
 
 
-## Low-speed braking
+## Low-speed_braking
 
 
 
