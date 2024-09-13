@@ -29,7 +29,7 @@ The SCK (Serial Clock) pin, responsible for receiving clock pulses from the SPI 
 
 The Arduino receives input from the joysticks, which it then sends to the master nRF24L01 module. This master module transmits the data to the nRF24L01 module on the RC car. The receiver module on the car then sends this data to the Arduino, where it is processed and used to control the RC car’s movements.
 
-
+<img src="images/RCPic10.jpg" alt="Screenshot" width="50%">
 
 
 ## Motor_driver
