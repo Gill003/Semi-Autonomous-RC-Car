@@ -11,8 +11,6 @@ I used an SPI communication protocol on nRF24L01 modules, allowing seamless comm
 <img src="images/RCPic1.jpg" alt="Screenshot" width="50%">
 
 
-
-
 ## Table of Contents 
 
 - [SPI Communication](#SPI-Communication)
@@ -50,7 +48,9 @@ To calculate the RC car’s speed, I measure the change in position (pos - posPr
 
 <img src="images/LowPassFilterEffect.png" alt="Screenshot" width="50%">
 
-To achieve precise cruise control, I employ a PID (Proportional-Integral-Derivative) controller. The controller compares the actual speed, measured by the encoder, to the desired set speed. The difference, or error, is used to compute a control signal through the PID algorithm. This control signal adjusts the motor’s speed and direction to minimize the error continuously. I've tested and fine-tuned the PID constants to enhance the system's efficiency and accuracy.
+To achieve precise cruise control, I employ a PID (Proportional-Integral-Derivative) controller. The controller compares the actual speed, measured by the encoder, to the desired set speed. The difference, or error, is used to compute a control signal through the PID algorithm. This control signal adjusts the motor’s speed and direction to minimize the error continuously. I've tested and fine-tuned the PID constants to enhance the system's efficiency and accuracy. The image below shows the feedback loop and the PID control formula.
+
+<img src="images/PID_Controller_Feedback_Loop.pdf" alt="Screenshot" width="50%">
 
 ## Adaptive_Cruise_Control
 
