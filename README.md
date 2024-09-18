@@ -53,7 +53,10 @@ To achieve precise cruise control, I employ a PID (Proportional-Integral-Derivat
 <img src="images/PID_Controller_Feedback_Loop.pdf" alt="Screenshot" width="50%">
 
 ## Adaptive_Cruise_Control
+Adaptive cruise control enables the RC car to maintain a constant distance from the vehicle ahead by adjusting its speed accordingly. As the car in front accelerates, the RC car speeds up, and as the car in front slows down, the RC car decelerates. I implemented this feature using an ultrasonic sensor to measure the distance to the object in front of the RC car. This distance measurement, along with the desired distance, is used in a PID control system similar to the one employed for cruise control.
 
+To test and demonstrate the adaptive cruise control system, I created a controlled environment using a treadmill and placed a box in front of the RC car. With the desired distance set to 20 cm, the RC car automatically adjusts its speed to maintain the desired distance with the box as I increase the treadmill’s speed. Check out the youtube video linked below to watch the demonstration.
+https://youtu.be/pqxNSgz4KEY 
 
 
 ## Low-speed_braking
