@@ -8,6 +8,8 @@ The RC car is built around an Arduino Nano microcontroller. For steering, I impl
 
 I used an SPI communication protocol on nRF24L01 modules, allowing seamless communication with the controller and the car. The controller has two joysticks for manual control of the car’s movement. For the Advanced Driver Assistance System (ADAS) features, I used an  HC-SR04 ultrasonic sensor at the front of the car to detect the distance of objects in front of the car which allowed me to implement low-speed braking and adaptive cruise control.
 
+https://www.youtube.com/watch?v=5RwbPxlYNoU&list=PLEunU_Zx3ad4BFViQp7UoeXNwfJuLj_Qg&index=3
+
 <img src="images/RCPic1.jpg" alt="Screenshot" width="50%">
 
 
