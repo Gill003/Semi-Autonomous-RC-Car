@@ -10,7 +10,7 @@ I used an SPI communication protocol on nRF24L01 modules, allowing seamless comm
 
 https://www.youtube.com/watch?v=5RwbPxlYNoU&list=PLEunU_Zx3ad4BFViQp7UoeXNwfJuLj_Qg&index=3
 
-<img src="images/RCPic1.jpg" alt="Screenshot" width="50%"> <img src="images/RCPic8.jpg" alt="Screenshot" width="50%">
+<img src="images/RCPic1.jpg" alt="Screenshot" width="50%"> 
 
 
 ## Table of Contents 
