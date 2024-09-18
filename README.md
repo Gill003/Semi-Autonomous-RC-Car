@@ -55,11 +55,21 @@ To achieve precise cruise control, I employ a PID (Proportional-Integral-Derivat
 ## Adaptive_Cruise_Control
 Adaptive cruise control enables the RC car to maintain a constant distance from the vehicle ahead by adjusting its speed accordingly. As the car in front accelerates, the RC car speeds up, and as the car in front slows down, the RC car decelerates. I implemented this feature using an ultrasonic sensor to measure the distance to the object in front of the RC car. This distance measurement, along with the desired distance, is used in a PID control system similar to the one employed for cruise control.
 
-To test and demonstrate the adaptive cruise control system, I created a controlled environment using a treadmill and placed a box in front of the RC car. With the desired distance set to 20 cm, the RC car automatically adjusts its speed to maintain the desired distance with the box as I increase the treadmill’s speed. Check out the youtube video linked below to watch the demonstration.
+To test and demonstrate the adaptive cruise control system, I created a controlled environment using a treadmill and placed a box in front of the RC car. With the desired distance set to 20 cm, the RC car automatically adjusts its speed to maintain the desired distance with the box as I increase the treadmill’s speed. Check out the YouTube video linked below to watch the demonstration.
+
 https://youtu.be/pqxNSgz4KEY 
 
 
 ## Low-speed_braking
 
+The low-speed emergency braking feature is designed to prevent collisions at slow speeds by automatically stopping the RC car when an object is detected within a critical distance. This functionality uses an **HC-SR04 ultrasonic sensor** to continuously monitor the distance to objects in front of the car.
+
+The ultrasonic sensor calculates the distance by using the **ping_cm()** function, which measures the time it takes for an ultrasonic pulse to return after bouncing off an object. The Arduino then checks if this distance is less than or equal to 25 cm. If the car is within this range, it further evaluates whether a collision is likely by checking if the car's **xval** (joystick value) is greater than or equal to 540, indicating forward movement toward the object.
+
+When both conditions are met (object detected within 25 cm and forward movement), the car initiates a reverse motion to simulate braking and stop the car's momentum. Additionally, a buzzer is activated to alert the driver that there is an obstacle ahead, providing both an audible warning and a responsive action to prevent collisions.
+
+I tested this system by setting up a controlled environment in which I drive toward stationary objects at various speeds. The RC car is successfully able to prevent collisions by braking and playing a buzzer to alert the driver. A demonstration of this feature is linked below.
+
+https://youtu.be/Y5L4jmIyt0g
 
 
